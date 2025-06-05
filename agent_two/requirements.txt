@@ -1,0 +1,3 @@
+acp-sdk
+httpx
+python-dotenv
