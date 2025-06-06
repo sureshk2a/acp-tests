@@ -1,7 +1,7 @@
 services:
-  agent_one:
+  server_one:
     build: .
-    container_name: agent_one
+    container_name: server_one
     ports:
       - "8080:8000"
     environment:

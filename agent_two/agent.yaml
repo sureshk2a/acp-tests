@@ -1,0 +1,11 @@
+version: "1.0"
+agents:
+  agent_three:
+    name: "agent_three"
+    description: "Echo agent that mirrors back messages with context maintenance"
+    metadata:
+      capabilities:
+        - name: "echo"
+          description: "Echoes all input messages back to the sender."
+        - name: "respond_to_messages"
+          description: "Responds to any message with the same content."

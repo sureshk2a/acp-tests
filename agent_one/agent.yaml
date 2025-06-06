@@ -1,0 +1,21 @@
+version: "1.0"
+agents:
+  agent_one:
+    name: "agent_one"
+    description: "Echo agent that mirrors back messages with context maintenance"
+    metadata:
+      capabilities:
+        - name: "echo"
+          description: "Echoes all input messages back to the sender."
+        - name: "respond_to_messages"
+          description: "Responds to any message with the same content."
+
+  agent_two:
+    name: "agent_two"
+    description: "Reverse agent that processes and inverts message content"
+    metadata:
+      capabilities:
+        - name: "reverse"
+          description: "Reverses all input messages before sending them back."
+        - name: "text-transformation"
+          description: "Transforms text by reversing its content while maintaining message structure."

@@ -1,7 +1,7 @@
 services:
-  agent_two:
+  server_two:
     build: .
-    container_name: agent_two
+    container_name: server_two
     ports:
       - "8081:8000"
     environment:
