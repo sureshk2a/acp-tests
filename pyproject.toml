@@ -1,0 +1,8 @@
+[project]
+name = "acp-tests"
+version = "0.1.0"
+description = "ACP Tests Project"
+requires-python = ">=3.10"
+dependencies = [
+    "acp-sdk",
+] 

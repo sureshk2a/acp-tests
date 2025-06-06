@@ -1,0 +1,10 @@
+[project]
+name = "agent-two"
+version = "0.1.0"
+description = "Agent Two Component"
+requires-python = ">=3.10"
+dependencies = [
+    "acp-sdk",
+    "httpx",
+    "python-dotenv",
+] 

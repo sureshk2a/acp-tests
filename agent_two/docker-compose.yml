@@ -6,6 +6,4 @@ services:
       - "8081:8000"
     environment:
       - PYTHONPATH=/app
-    volumes:
-      - .:/app
-    command: ["python", "agent.py"]
+    command: [".venv/bin/python", "agent.py"]

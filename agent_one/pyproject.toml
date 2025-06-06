@@ -1,0 +1,9 @@
+[project]
+name = "agent-one"
+version = "0.1.0"
+description = "Agent One Component"
+requires-python = ">=3.10"
+dependencies = [
+    "acp-sdk",
+    "httpx",
+] 
